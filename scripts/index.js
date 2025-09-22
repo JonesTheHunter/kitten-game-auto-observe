@@ -3,11 +3,14 @@ const observe = document.getElementById('observeButton');
 const inputParent = document.createElement('div');
 inputParent.setAttribute('id', 'toggle-parent');
 inputParent.style.display = 'flex';
-inputParent.style.flexDirection = 'column';
+inputParent.style.flexDirection = 'row';
+inputParent.style.columnGap = '8px';
+
 
 const inputLabel = document.createElement('label');
 inputLabel.setAttribute('id', 'auto-observe-toggle-label');
 inputLabel.setAttribute('for', 'auto-observe-toggle');
+inputLabel.innerText = "Auto-Observe Toggle"
 
 inputParent.appendChild(inputLabel);
 

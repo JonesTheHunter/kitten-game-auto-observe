@@ -1,14 +1,14 @@
 {
+  "manifest_version": 2,
   "name": "Kittens Game - Auto-Observe",
   "description": "Auto Observe functionality for Kittens Game - Auto Observe",
   "version": "1.0",
-  "manifest_version": 3,
   "content_scripts": [
     {
-      "js": ["scripts/index.js"],
       "matches": [
-        "https://kittensgame.com/web/"
-      ]
+        "https://kittensgame.com/web/*"
+      ],
+      "js": ["scripts/index.js"]
     }
   ]
 }
