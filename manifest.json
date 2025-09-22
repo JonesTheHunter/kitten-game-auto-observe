@@ -10,5 +10,8 @@
       ],
       "js": ["scripts/index.js"]
     }
-  ]
+  ],
+  "permissions": [
+    "storage"
+]
 }
